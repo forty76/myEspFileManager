@@ -27,7 +27,7 @@ class EspFileManager
 private:
     bool memory_ready = false;
     String str_dataFS = "";
-    fs::SDFS *_storage;    
+    //fs::SDFS *_storage;    
     fs::LittleFSFS *_storage2;
     AsyncWebServer *_server;
     String my_path;
