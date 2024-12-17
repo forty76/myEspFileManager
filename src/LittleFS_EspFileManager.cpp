@@ -2,8 +2,6 @@
 // #include "page.h"
 #include "webPage.h"
 #include "FS.h"
-//#include <SD.h>
-//#include "SPI.h"
 #include <LittleFS.h>
 
 EspFileManager::EspFileManager(/* args */)
