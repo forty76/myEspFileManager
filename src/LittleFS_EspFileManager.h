@@ -7,7 +7,6 @@
  */
 
 #include <Arduino.h>
-//#include <SD.h>
 #include <LittleFS.h>
 #ifdef ESP32
 #include <AsyncTCP.h>
@@ -26,8 +25,7 @@ class EspFileManager
 {
 private:
     bool memory_ready = false;
-    String str_dataFS = "";
-    //fs::SDFS *_storage;    
+    String str_dataFS = "";       
     fs::LittleFSFS *_storage2;
     AsyncWebServer *_server;
     String my_path;
