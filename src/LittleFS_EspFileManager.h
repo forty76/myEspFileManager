@@ -7,7 +7,7 @@
  */
 
 #include <Arduino.h>
-#include <SD.h>
+//#include <SD.h>
 #include <LittleFS.h>
 #ifdef ESP32
 #include <AsyncTCP.h>
